@@ -1,0 +1,108 @@
+body {
+background-size: cover;
+background-image: url("https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=404&q=80");
+}
+
+h1 {
+  text-align: center;
+  margin: 10vh 0 0 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.center {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  table-layout: initial;
+  margin: 40px auto;
+  border-style:double;
+}
+
+table.list {
+  font-family: 'Georgia', Times New Roman, Times, serif;
+  text-align: center;
+  width: 100%;
+}
+
+th{
+    border: 1px solid rgb(204, 200, 200);
+}
+td {
+  border: 1px solid rgb(204, 200, 200);
+  text-align: left;
+  color: white;
+  padding: 8px 15px;
+background: linear-gradient(204deg, rgb(78, 23, 76) 0%, rgb(156, 113, 152) 100%);
+}
+
+tr:nth-child(even),
+table.list thread > tr {
+  background-color: #d0f1bf;
+}
+
+input[type="text"] {
+  width: 95%;
+  padding: 10px 10px;
+  margin: 0px 0 10px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 6px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background: #eee;
+  padding: 6px 12px;
+  margin: 15px 0 10px;
+  display: inline-block;
+  /* border: none; */
+  border: #1c2541;
+  border-radius: 1.5cm;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+  background: #1900ff;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background: #1f0214;
+  color: white;
+  font-size: 1.2rem;
+}
+
+tbody {
+font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+.input-part {
+  font-family: 'Georgia', Times New Roman, Times, serif;
+  font-size: 1.3rem;
+}
+
+button {
+  background: #290126;
+  color: white;
+  padding: 6px 12px;
+  margin: 15px 0 10px;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  outline: none;
+}
